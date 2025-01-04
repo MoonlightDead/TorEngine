@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search for torrents">
+    <meta name="author" content="Moonlight">
+    <title>Tor Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();
+	   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+	   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(99131791, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/99131791" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <div id="header-container">
+        <h1>Tor Engine</h1>
+    </div>
+    <div id="search-container">
+        <form id="search-form">
+            <div class="input-container">
+                <input type="text" id="query" placeholder="Поиск...">
+                <img src="mag.svg" alt="Search Icon" class="search-icon">
+            </div>
+        </form>
+    </div>
+
+    <div id="sort-container">
+        <label for="sort-by">Сортировать по:</label>
+        <div class="form_radio_btn">
+            <input id="sort-by-size" type="radio" name="sort" value="size">
+            <label for="sort-by-size">Размер</label>
+        </div>
+        <div class="form_radio_btn">
+            <input id="sort-by-seeders" type="radio" name="sort" value="seeders" checked>
+            <label for="sort-by-seeders">Сиды</label>
+        </div>
+    </div>
+
+    <div id="results"></div>
+
+
+    <button id="scroll-to-top" class="scroll-to-top" title="Вернуться наверх">
+        ▴
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
