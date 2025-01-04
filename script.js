@@ -1,4 +1,4 @@
-const JACKETT_API_URL = "https://crossorigin.me/http://217.196.99.51:9117/api/v2.0/indexers/all/results";
+const JACKETT_API_URL = "https://proxy.cors.sh/http://217.196.99.51:9117/api/v2.0/indexers/all/results";
 const API_KEY = "eitzmnqozcot9i3p7lb4c507q6z229el";
 
 let results = [];
