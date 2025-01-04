@@ -1,5 +1,5 @@
-const JACKETT_API_URL = "/jackett/api/v2.0/indexers/all/results";
-const API_KEY = "q6nion3mfqsnbf4bhvl2244pmsosdcrk";
+const JACKETT_API_URL = "http://217.196.99.51:9117/api/v2.0/indexers/all/results";
+const API_KEY = "eitzmnqozcot9i3p7lb4c507q6z229el";
 
 let results = [];
 let animationInterval; 
