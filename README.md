@@ -27,45 +27,7 @@ This project is a minimalistic web application designed to provide a clean and e
 
 ---
 
-## Getting Started
 
-### Prerequisites
-
-- [Docker](https://www.docker.com/) installed on your machine.
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
-   ```
-
-2. Build and start the Docker container:
-   ```bash
-   docker-compose up -d
-   ```
-
-3. Access the web interface at `http://localhost:8080` (or your configured port).
-
----
-
-## Configuration
-
-1. Set up your Jackett server and note the API key.
-2. Update the environment variables in the `docker-compose.yml` file:
-   ```yaml
-   environment:
-     - JACKETT_API_KEY=your_api_key
-     - JACKETT_SERVER_URL=http://your-jackett-url
-   ```
-
-3. Restart the container to apply changes:
-   ```bash
-   docker-compose down && docker-compose up -d
-   ```
-
----
 
 ## Contribution
 
