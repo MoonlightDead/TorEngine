@@ -39,10 +39,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 ## Disclaimer
 
 This project is for personal use only. The authors are not responsible for any misuse of this software.
-
----
-
-## Contact
-
-For inquiries or support, please contact [your email/contact info].
-
