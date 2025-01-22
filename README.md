@@ -2,6 +2,9 @@
 
 **A lightweight torrent search website using Jackett's API, deployed with Docker for simplicity and parallel deployment.**
 
+![image](https://github.com/user-attachments/assets/85cd010a-910d-4aeb-b454-a1a0bb134b95)
+
+
 ---
 
 ## Overview
